@@ -1,0 +1,391 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.ttf") format("truetype"),
+    url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-RegularItalic.ttf") format("truetype"),
+    url("../fonts/Gilroy-RegularItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-SemiBold.ttf") format("truetype"),
+    url("../fonts/Gilroy-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-SemiBoldItalic.ttf") format("truetype"),
+    url("../fonts/Gilroy-SemiBoldItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Thin.ttf") format("truetype"),
+    url("../fonts/Gilroy-Thin.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ThinItalic.ttf") format("truetype"),
+    url("../fonts/Gilroy-ThinItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-UltraLight.ttf") format("truetype"),
+    url("../fonts/Gilroy-UltraLight.woff") format("woff");
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-UltraLightItalic.ttf") format("truetype"),
+    url("../fonts/Gilroy-UltraLightItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Black.ttf") format("truetype"),
+    url("../fonts/Gilroy-Black.woff") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-BlackItalic.ttf") format("truetype"),
+    url("../fonts/Gilroy-BlackItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype"),
+    url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-BoldItalic.ttf") format("truetype"),
+    url("../fonts/Gilroy-BoldItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBoldItalic.ttf") format("truetype"),
+    url("../fonts/Gilroy-ExtraBoldItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Light.ttf") format("truetype"),
+    url("../fonts/Gilroy-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-LightItalic.ttf") format("truetype"),
+    url("../fonts/Gilroy-LightItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype"),
+    url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-MediumItalic.ttf") format("truetype"),
+    url("../fonts/Gilroy-MediumItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* GILL SANS */
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans.otf"),
+    url("../fonts/Gill\ Sans.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans\ Italic.otf"),
+    url("../fonts/Gill\ Sans\ Italic.woff") format("woff");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans\ Bold.otf"),
+    url("../fonts/Gill\ Sans\ Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans\ Bold\ Italic.otf"),
+    url("../fonts/Gill\ Sans\ Bold\ Italic.woff") format("woff");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans\ Heavy.otf"),
+    url("../fonts/Gill\ Sans\ Heavy.woff") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans\ Heavy\ Italic.otf"),
+    url("../fonts/Gill\ Sans\ Heavy\ Italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans\ Light.otf"),
+    url("../fonts/Gill\ Sans\ Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans\ Light\ Italic.otf"),
+    url("../fonts/Gill\ Sans\ Light\ Italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans\ Medium.otf"),
+    url("../fonts/Gill\ Sans\ Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans\ Medium\ Italic.otf"),
+    url("../fonts/Gill\ Sans\ Medium\ Italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/GillSans\ Condensed.otf"),
+    url("../fonts/GillSans\ Condensed.woff") format("woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/GillSans\ Condensed\ Bold.otf"),
+    url("../fonts/GillSans\ Condensed\ Bold.woff") format("woff");
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-black.otf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-blackit.otf");
+  font-style: italic;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-bold.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-boldit.otf");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-extrabold.otf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-extraboldit.otf");
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-light.otf");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-lightit.otf");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-medium.otf");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-mediumit.otf");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-regularit.otf");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-semibold.otf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-semiboldit.otf");
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-thin.otf");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-thinit.otf");
+  font-style: italic;
+  font-weight: 100;
+}
+
+.font-proxima,
+.font-proxima * {
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.font-gill,
+.font-gill * {
+  font-family: "Gill Sans", sans-serif;
+}
+
+.font-gilroy,
+.font-gilroy * {
+  font-family: "Gilroy", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.tags-swiper .swiper-slide {
+  width: fit-content;
+}
+
+.tags-swiper .swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.houses-swiper .swiper-slide:nth-child(1) {
+  z-index: 1;
+}
+
+.testimonial-swiper {
+  overflow: hidden;
+}
