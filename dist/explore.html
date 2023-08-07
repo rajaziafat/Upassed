@@ -31,13 +31,13 @@
     ></div>
     <div
       id="menu"
-      class="transition-all bg-accentGray-50 py-6 lg:py-0 w-[320px] lg:w-auto lg:bg-transparent fixed lg:static h-screen lg:h-auto top-0 -right-[320px] flex justify-start flex-col lg:flex-row gap-1 flex-grow z-[60] lg:hidden"
+      class="transition-all bg-black py-6 lg:py-0 w-[320px] lg:w-auto lg:bg-transparent fixed lg:static h-screen lg:h-auto top-0 -right-[320px] flex justify-start flex-col lg:flex-row gap-1 flex-grow z-[60] lg:hidden"
     >
       <div
-        class="lg:pl-6 rounded-full lg:border border-r-0 border-solid border-accentGray-100 font-gill flex flex-col lg:flex-row lg:justify-between lg:items-center flex-grow"
+        class="lg:pl-6 rounded-full lg:border border-r-0 border-solid border-transparent font-gill flex flex-col lg:flex-row lg:justify-between lg:items-center flex-grow"
       >
         <div
-          class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-primary"
+          class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-white hover:text-slate-400"
         >
           Get Your License
           <img
@@ -47,7 +47,7 @@
           />
         </div>
         <div
-          class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-accentGray-200 hover:text-primary transition-colors"
+          class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-white hover:text-slate-400"
         >
           Exam Prep
           <img
@@ -57,7 +57,7 @@
           />
         </div>
         <div
-          class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-accentGray-200 hover:text-primary transition-colors"
+          class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-white hover:text-slate-400"
         >
           Upgrade my license
           <img
@@ -67,7 +67,7 @@
           />
         </div>
         <div
-          class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-accentGray-200 hover:text-primary transition-colors"
+          class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-white hover:text-slate-400"
         >
           Continue education
           <img
@@ -78,48 +78,52 @@
         </div>
 
         <div class="px-2 lg:px-0 py-3 lg:py-0 flex items-center lg:h-full">
-          <div
-            class="flex items-center px-4 lg:px-5 lg:border-r-0 rounded-full lg:border lg:border-t-0 lg:border-b-0 border-solid border-accentGray-100 font-gill h-full"
+          <button
+            class="flex items-center px-4 lg:px-5 lg:border-r-0 rounded-full lg:border lg:border-t-0 lg:border-b-0 border-solid border-transparent font-gill h-full hover:scale-105 transition-all"
           >
             <img
               class="w-4 lg:w-5"
-              src="./assets/imgs/search.png"
+              src="./assets/imgs/search-white.png"
               alt="search"
             />
-          </div>
-          <div
-            class="flex items-center px-4 lg:px-5 rounded-full lg:border lg:border-t-0 lg:border-b-0 lg:border-solid border-accentGray-100 font-gill h-full"
+          </button>
+          <button
+            class="flex items-center px-4 lg:px-5 rounded-full lg:border lg:border-t-0 lg:border-b-0 lg:border-solid border-transparent font-gill h-full hover:scale-105 transition-all"
           >
             <img
               class="w-4 lg:w-5"
-              src="./assets/imgs/notification.png"
+              src="./assets/imgs/notification-white.png"
               alt="notification"
             />
-          </div>
+          </button>
         </div>
       </div>
       <button
-        class="mx-5 lg:mx-0 px-6 py-3 text-center lg:text-start xl:text-base text-sm rounded-full border border-solid border-accentGray-100 font-gill cursor-pointer hover:-translate-y-1 transition-all"
+        class="mx-5 lg:mx-0 px-6 py-3 text-center lg:text-start xl:text-base text-sm rounded-full border border-solid border-white font-gill text-white cursor-pointer hover:-translate-y-1 transition-all"
       >
         Login/Sign Up
       </button>
     </div>
 
-    <header class="bg-accentGray-50 sticky top-0 z-50">
+    <header class="bg-black sticky top-0 z-50">
       <nav class="px-4 sm:px-7 lg:px-10 py-5">
         <div class="max-w-[1200px] mx-auto">
           <div class="flex justify-between items-center gap-10">
-            <a href="index.html" class="max-w-[100px] xl:max-w-[174px]">
-              <img class="w-full" src="./assets/imgs/logo.png" alt="logo" />
+            <a href="./index.html" class="max-w-[100px] xl:max-w-[174px]">
+              <img
+                class="w-full"
+                src="./assets/imgs/logo-white.png"
+                alt="logo"
+              />
             </a>
             <div
-              class="bg-accentGray-50 py-6 lg:py-0 w-[320px] lg:w-auto lg:bg-transparent absolute lg:static h-screen lg:h-auto top-0 -right-[320px] hidden lg:flex justify-start flex-col lg:flex-row gap-1 flex-grow z-50"
+              class="py-6 lg:py-0 w-[320px] lg:w-auto lg:bg-transparent absolute lg:static h-screen lg:h-auto top-0 -right-[320px] hidden lg:flex justify-start flex-col lg:flex-row gap-1 flex-grow z-50"
             >
               <div
-                class="lg:pl-6 rounded-full lg:border border-r-0 border-solid border-accentGray-100 font-gill flex flex-col lg:flex-row lg:justify-between lg:items-center flex-grow"
+                class="lg:pl-6 rounded-full lg:border border-r-0 border-solid border-transparent font-gill flex flex-col lg:flex-row lg:justify-between lg:items-center flex-grow"
               >
                 <div
-                  class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-primary"
+                  class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-white hover:text-slate-400 transition-all"
                 >
                   Get Your License
                   <img
@@ -129,7 +133,7 @@
                   />
                 </div>
                 <div
-                  class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-accentGray-200 hover:text-primary transition-colors"
+                  class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-white hover:text-slate-400 transition-all"
                 >
                   Exam Prep
                   <img
@@ -139,7 +143,7 @@
                   />
                 </div>
                 <div
-                  class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-accentGray-200 hover:text-primary transition-colors"
+                  class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-white hover:text-slate-400 transition-all"
                 >
                   Upgrade my license
                   <img
@@ -149,7 +153,7 @@
                   />
                 </div>
                 <div
-                  class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-accentGray-200 hover:text-primary transition-colors"
+                  class="w-full lg:w-auto py-3 lg:py-0 px-5 lg:px-0 flex justify-between lg:justify-start gap-2 items-center cursor-pointer xl:text-base text-sm text-white hover:text-slate-400 transition-all"
                 >
                   Continue education
                   <img
@@ -163,232 +167,218 @@
                   class="px-2 lg:px-0 py-3 lg:py-0 flex items-center lg:h-full"
                 >
                   <button
-                    class="flex items-center px-4 lg:px-5 lg:border-r-0 rounded-full lg:border lg:border-t-0 lg:border-b-0 border-solid border-accentGray-100 font-gill h-full hover:scale-105 transition-all"
+                    class="flex items-center px-4 lg:px-5 lg:border-r-0 rounded-full lg:border lg:border-t-0 lg:border-b-0 border-solid border-transparent font-gill h-full hover:scale-105 transition-all"
                   >
                     <img
                       class="w-4 lg:w-5"
-                      src="./assets/imgs/search.png"
+                      src="./assets/imgs/search-white.png"
                       alt="search"
                     />
                   </button>
                   <button
-                    class="flex items-center px-4 lg:px-5 rounded-full lg:border lg:border-t-0 lg:border-b-0 lg:border-solid border-accentGray-100 font-gill h-full hover:scale-105 transition-all"
+                    class="flex items-center px-4 lg:px-5 rounded-full lg:border lg:border-t-0 lg:border-b-0 lg:border-solid border-transparent font-gill h-full hover:scale-105 transition-all"
                   >
                     <img
                       class="w-4 lg:w-5"
-                      src="./assets/imgs/notification.png"
+                      src="./assets/imgs/notification-white.png"
                       alt="notification"
                     />
                   </button>
                 </div>
               </div>
               <button
-                class="mx-5 lg:mx-0 px-6 py-3 text-center lg:text-start xl:text-base text-sm rounded-full border border-solid border-accentGray-100 font-gill cursor-pointer hover:-translate-y-1 transition-all"
+                class="mx-5 lg:mx-0 px-6 py-3 text-center lg:text-start xl:text-base text-sm rounded-full border border-solid border-white font-gill text-white cursor-pointer hover:-translate-y-1 transition-all"
               >
                 Login/Sign Up
               </button>
             </div>
             <div
               id="menu-toggler"
-              class="px-6 py-3 lg:hidden rounded-full border border-solid border-accentGray-100 flex flex-col items-end gap-1"
+              class="px-6 py-3 lg:hidden rounded-full border border-solid border-accentGray-100 flex flex-col items-end gap-[5px]"
             >
-              <div class="bg-black w-6 h-[3px]"></div>
-              <div class="bg-black w-4 h-[3px]"></div>
-              <div class="bg-black w-5 h-[3px]"></div>
+              <div class="bg-white w-6 h-[2px]"></div>
+              <div class="bg-white w-4 h-[2px]"></div>
+              <div class="bg-white w-5 h-[2px]"></div>
             </div>
           </div>
         </div>
       </nav>
     </header>
 
-    <div class="bg-accentGray-50 overflow-hidden">
-      <section class="px-4 sm:px-7 lg:px-10 mt-10">
-        <div class="max-w-[1200px] mx-auto">
-          <div class="relative">
-            <h1
-              class="hero-heading font-extrabold font-gilroy text-3xl sm:text-[5.5vw] leading-none relative"
-            >
-              Get Licensed and Learn Through Specialized Classes
-            </h1>
-            <div
-              class="flex items-center mt-3 sm:mt-0 sm:absolute right-[6%] -bottom-6 lg:-bottom-3"
-            >
-              <p class="hero-subheading leading-tight font-gilroy">
-                Learn from pros and Take your CE&apos;s! 93% Cheaper than most
-                schools! Thousands of resources!
+    <div class="overflow-hidden">
+      <section class="bg-black px-4 sm:px-7 pt-10 md:pt-16 pb-10 md:pb-28">
+        <div class="max-w-[1200px] mx-auto font-proxima">
+          <div class="flex flex-col gap-10 lg:gap-0 lg:flex-row">
+            <div class="lg:w-1/2 relative">
+              <p class="text-secondary font-semibold max-w-[450px]">
+                LEARN FROM THE PROS
               </p>
-              <img
-                class="hero-heading-arrow"
-                src="./assets/imgs/arrow.png"
-                alt="arrow"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+              <h1
+                class="text-white text-4xl md:text-6xl lg:text-7xl font-bold mt-4 mb-6"
+              >
+                Explore hundreds of classes
+              </h1>
+              <p class="text-accentGray-500 max-w-[450px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              </p>
 
-      <div
-        class="tags-swiper mt-10 sm:mt-16 font-gilroy"
-        data-swiper-autoplay="0"
-      >
-        <div class="swiper-wrapper opacity-20">
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-primary-400 text-white"
-            >
-              Tech
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-primary text-white"
-            >
-              Social Media
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-secondary text-white"
-            >
-              Legal
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-primary-400 text-white"
-            >
-              Credit
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-primary text-white"
-            >
-              Listings
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-secondary text-white"
-            >
-              Lead Gen
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-primary-400 text-white"
-            >
-              Business
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-primary text-white"
-            >
-              Brokering
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-secondary text-white"
-            >
-              Ethics
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-primary-400 text-white"
-            >
-              Title
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div
-              class="px-8 py-3 w-fit font-extrabold rounded-full bg-primary text-white"
-            >
-              Design
-            </div>
-          </div>
-        </div>
-      </div>
+              <div class="flex flex-col sm:flex-row items-center gap-3 mt-10">
+                <button
+                  class="w-full sm:w-auto px-12 py-4 bg-accentGray-50 font-semibold rounded-md border border-solid border-accentGray-50 hover:bg-transparent hover:text-accentGray-50 transition-all"
+                >
+                  Start Learning
+                </button>
+                <button
+                  class="w-full sm:w-auto px-12 py-4 hover:bg-accentGray-50 hover:text-black border border-solid border-accentGray-50 font-semibold rounded-md text-accentGray-50 transition-all"
+                >
+                  Try Demo
+                </button>
+              </div>
 
-      <section class="w-full px-4 sm:px-7 lg:px-10 sm:mt-10 py-10">
-        <div class="max-w-[1200px] mx-auto">
-          <div class="houses-swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="relative z-10">
-                  <div class="rounded-t-[44px] overflow-hidden">
-                    <img src="./assets/imgs/slider-1.png" alt="house" />
-                  </div>
-                  <div
-                    class="rounded-b-[44px] px-6 pt-6 py-9 bg-primary-400 text-white"
-                  >
-                    <h3 class="font-gilroy font-extrabold text-2xl mb-2">
-                      Mastering Technology Pt.1
-                    </h3>
-                    <p class="font-gilroy font-semibold text-xs">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad.
-                    </p>
-                  </div>
-                  <div
-                    class="absolute rounded-[50%] bg-white w-24 h-24 z-10 top-1/2 -translate-y-1/2 right-0 sm:translate-x-[calc(50%+5px)] flex items-center justify-center"
-                  >
-                    <div
-                      class="font-gilroy text-sm w-full px-2 flex items-center justify-between"
-                    >
-                      <img
-                        class="w-2 h-3"
-                        src="./assets/imgs/angle-arrow-left.png"
-                        alt="arrow"
-                      />
-                      <div>DRAG</div>
-                      <img
-                        class="w-2 h-3 rotate-180"
-                        src="./assets/imgs/angle-arrow-left.png"
-                        alt="arrow"
-                      />
+              <div class="flex gap-3 items-center mt-10">
+                <img
+                  class="max-w-[120px]"
+                  src="./assets/imgs/avatars.png"
+                  alt="avatars"
+                />
+
+                <div class="text-white font-semibold">Join our class</div>
+              </div>
+            </div>
+            <div class="lg:w-1/2 flex flex-col lg:flex-row gap-5 justify-end">
+              <div class="hero-swiper-2-wrapper">
+                <div
+                  class="hero-swiper-2 lg:h-[50vh]"
+                  data-swiper-autoplay="0"
+                  data-swiper-speed="3000"
+                >
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="rounded-lg relative overflow-hidden">
+                        <div class="absolute left-4 top-4 text-white">
+                          Technology
+                        </div>
+                        <img
+                          class="max-w-[250px]"
+                          src="./assets/imgs/v-slider-1.png"
+                          alt="slider"
+                        />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="rounded-lg relative overflow-hidden">
+                        <div class="absolute left-4 top-4 text-white">
+                          Loans <span class="font-gill">&amp;</span> Mortgages
+                        </div>
+                        <img
+                          class="max-w-[250px]"
+                          src="./assets/imgs/v-slider-2.png"
+                          alt="slider"
+                        />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="rounded-lg relative overflow-hidden">
+                        <div class="absolute left-4 top-4 text-white">
+                          Customer Service
+                        </div>
+                        <img
+                          class="max-w-[250px]"
+                          src="./assets/imgs/v-slider-3.png"
+                          alt="slider"
+                        />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="rounded-lg relative overflow-hidden">
+                        <div class="absolute left-4 top-4 text-white">
+                          Networking
+                        </div>
+                        <img
+                          class="max-w-[250px]"
+                          src="./assets/imgs/v-slider-4.png"
+                          alt="slider"
+                        />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="rounded-lg relative overflow-hidden">
+                        <div class="absolute left-4 top-4 text-white">
+                          Bad Credit
+                        </div>
+                        <img
+                          class="max-w-[250px]"
+                          src="./assets/imgs/v-slider-5.png"
+                          alt="slider"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div>
-                  <div class="rounded-t-[44px] overflow-hidden">
-                    <img src="./assets/imgs/slider-2.png" alt="house" />
+              <div class="hero-swiper lg:h-[50vh]" data-swiper-autoplay="0">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="rounded-lg relative overflow-hidden">
+                      <div class="absolute left-4 top-4 text-white">
+                        Technology
+                      </div>
+                      <img
+                        class="max-w-[250px]"
+                        src="./assets/imgs/v-slider-1.png"
+                        alt="slider"
+                      />
+                    </div>
                   </div>
-                  <div
-                    class="rounded-b-[44px] px-6 pt-6 py-9 bg-primary text-white"
-                  >
-                    <h3 class="font-gilroy font-extrabold text-2xl mb-2">
-                      Mastering Technology Pt.2
-                    </h3>
-                    <p class="font-gilroy font-semibold text-xs">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad.
-                    </p>
+
+                  <div class="swiper-slide">
+                    <div class="rounded-lg relative overflow-hidden">
+                      <div class="absolute left-4 top-4 text-white">
+                        Bad Credit
+                      </div>
+                      <img
+                        class="max-w-[250px]"
+                        src="./assets/imgs/v-slider-5.png"
+                        alt="slider"
+                      />
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="">
-                  <div class="rounded-t-[44px] overflow-hidden">
-                    <img src="./assets/imgs/slider-1.png" alt="house" />
+                  <div class="swiper-slide">
+                    <div class="rounded-lg relative overflow-hidden">
+                      <div class="absolute left-4 top-4 text-white">
+                        Customer Service
+                      </div>
+                      <img
+                        class="max-w-[250px]"
+                        src="./assets/imgs/v-slider-3.png"
+                        alt="slider"
+                      />
+                    </div>
                   </div>
-                  <div
-                    class="rounded-b-[44px] px-6 pt-6 py-9 bg-secondary text-white"
-                  >
-                    <h3 class="font-gilroy font-extrabold text-2xl mb-2">
-                      Mastering Technology Pt.3
-                    </h3>
-                    <p class="font-gilroy font-semibold text-xs">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad.
-                    </p>
+                  <div class="swiper-slide">
+                    <div class="rounded-lg relative overflow-hidden">
+                      <div class="absolute left-4 top-4 text-white">
+                        Networking
+                      </div>
+                      <img
+                        class="max-w-[250px]"
+                        src="./assets/imgs/v-slider-4.png"
+                        alt="slider"
+                      />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="rounded-lg relative overflow-hidden">
+                      <div class="absolute left-4 top-4 text-white">
+                        Loans <span class="font-gill">&amp;</span> Mortgages
+                      </div>
+                      <img
+                        class="max-w-[250px]"
+                        src="./assets/imgs/v-slider-2.png"
+                        alt="slider"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -398,7 +388,9 @@
       </section>
     </div>
 
-    <section class="w-full px-4 sm:px-7 lg:px-10 mt-10">
+    <section
+      class="w-full px-4 sm:px-7 lg:px-10 py-5 md:py-10 bg-accentGray-50"
+    >
       <div class="max-w-[1200px] mx-auto font-proxima">
         <div class="flex flex-col md:flex-row">
           <div
@@ -441,9 +433,7 @@
       </div>
     </section>
 
-    <section
-      class="w-full px-4 sm:px-7 lg:px-10 py-10 md:py-20 mt-10 bg-accentGray-50"
-    >
+    <section class="w-full px-4 sm:px-7 lg:px-10 py-10 md:py-20">
       <div class="max-w-[1200px] mx-auto font-proxima">
         <div
           class="flex flex-col md:flex-row justify-between items-stretch gap-6 md:gap-0"
@@ -556,7 +546,7 @@
       <div class="max-w-[1200px] mx-auto font-proxima">
         <div class="flex gap-9 sm:gap-0 flex-wrap lg:flex-nowrap">
           <div class="sm:w-1/3 lg:w-1/4 xl:w-1/3">
-            <a href="index.html">
+            <a href="./index.html">
               <img
                 class="max-w-[170px]"
                 src="./assets/imgs/logo-white.png"

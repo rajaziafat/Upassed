@@ -369,16 +369,71 @@
   font-family: "Gilroy", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-size: 16px;
-  overflow-x: hidden;
+}
+
+@media screen and (min-width: 1441px) {
+  .hero-heading {
+    font-size: 79px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .hero-subheading {
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  .hero-subheading {
+    font-size: 1.1vw;
+    max-width: 19.4vw;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 640px) {
+  .hero-subheading {
+    font-size: 1.75vw;
+    max-width: 30vw;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .hero-heading-arrow {
+    width: 36px;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 640px) {
+  .hero-heading-arrow {
+    width: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .hero-heading-arrow {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-heading-arrow {
+    max-width: 40px;
+  }
 }
 
 .tags-swiper .swiper-slide {
   width: fit-content;
 }
 
-.tags-swiper .swiper-wrapper {
+.tags-swiper .swiper-wrapper,
+.hero-swiper .swiper-wrapper,
+.hero-swiper-2 .swiper-wrapper {
   transition-timing-function: linear;
 }
 
@@ -388,4 +443,26 @@ body {
 
 .testimonial-swiper {
   overflow: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-swiper-2-wrapper {
+    transform: rotate(180deg);
+  }
+
+  .hero-swiper-2 .swiper-wrapper .swiper-slide {
+    transform: rotate(180deg);
+  }
+
+  .hero-swiper .swiper-wrapper .swiper-slide,
+  .hero-swiper-2 .swiper-wrapper .swiper-slide {
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-swiper .swiper-wrapper .swiper-slide,
+  .hero-swiper-2 .swiper-wrapper .swiper-slide {
+    width: fit-content;
+  }
 }
